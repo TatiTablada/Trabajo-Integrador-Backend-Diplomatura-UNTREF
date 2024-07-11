@@ -1,0 +1,20 @@
+## Página principal
+http://localhost:3003
+
+## Todas las prendas
+GET http://localhost:3003/prendas
+
+## Prenda por id
+
+GET http://localhost:3003/prendas/6681b93edbdb53d6f6067e4e
+
+##Prenda por nombre 
+
+GET http://localhost:3003/prendas?nombre=Jeans
+
+
+
+
+
+
+
