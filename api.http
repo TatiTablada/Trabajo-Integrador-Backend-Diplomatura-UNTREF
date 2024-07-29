@@ -1,6 +1,5 @@
 ## Página principal
-
-http://localhost:3003
+GET http://localhost:3003
 
 ## Todas las prendas
 
@@ -30,7 +29,7 @@ Content-Type: application/json
 
 {
 
-  "precio": 125.45
+  "precio": 130.45
 
 }
 
@@ -38,5 +37,20 @@ Content-Type: application/json
 DELETE http://localhost:3003/prendas/6681b93edbdb53d6f6067e5e
 
 
+## Creación de token usando JWT
+POST http://localhost:3003/register
+Content-Type: application/json
 
+{
+  "email": "usuario@example.com",
+  "password": "contraseña"
+}
 
+## Login de usuario 
+POST http://localhost:3003/login
+Content-Type: application/json
+
+{
+    "email": "usuario@example.com",
+    "password": "contraseña"
+}

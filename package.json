@@ -4,14 +4,15 @@
   "description": "En este proyecto, desarrollarás una aplicación basada en Node.js y MongoDB que permita realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos. La base de datos MongoDB deberá estar generada en el clúster de mongodb.com y tu aplicación Node.js se conectará a ella.",
   "main": "app.js",
   "scripts": {
-  "start": "node --watch app.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "4.19.2",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "6.8.0",
     "mongoose": "8.4.4",
     "morgan": "1.10.0"
